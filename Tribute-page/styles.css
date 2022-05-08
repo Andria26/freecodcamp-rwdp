@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main {
+    background: linear-gradient(to right, #ADD8E6 , #fff 50%, #ADD8E6);
+}
+
+h4 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+/********** HEADER ********/
+#title {
+    text-align: center;
+}
+
+/*********** HOME **********/
+#home {
+    width: 96%;
+    margin: auto;
+}
+
+#img-div {
+    background-color: #fff;
+    text-align: center;
+}
+
+#image{
+    width: 70%;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}   
+
+#tribute-info {
+    text-align: center;
+}
+
+#tribute-info ul {
+    text-align: left;
+    margin: 5% 20%;
+}
+
+#tribute-info li {
+    margin-bottom: 10px ;
+
+}
+
+li:hover {
+    color: aqua;
+}
+
+#tribute-info a {
+    text-decoration: none;
+    color: black;
+}
+
+#tribute-info a:hover {
+    color: red;
+}
+
+a:hover {
+    color: aqua;
+}
+
+footer p {
+    text-align: center;
+}
